@@ -16,6 +16,7 @@ var uvIndexEl = document.querySelector(".uvIndex");
 var cardRow = document.querySelector(".card-row");
 
 //Current Date
+var today = new Date();
 var dd = String(today.getDate()).padStart(2, "0");
 var mm = String(today.getMonth() + 1).padStart(2, "0");
 var yyyy = today.getFullYear();
@@ -29,7 +30,7 @@ else{
     renderSearchHistory();
 }
 
-searchBut.on("click", function(e) {
+searchBtn.on("click", function(e) {
     e.preventDefault();
     if (searchInput.val() === "") {
         alert("You must enter a city");
