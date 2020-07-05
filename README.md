@@ -42,3 +42,8 @@ You are required to submit the following for review:
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+
+api.openweathermap.org/data/2.5/forecast?q={city name}&appid={your api key}
+API = 

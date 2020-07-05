@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="container">
+        <div class="search">
+            
+            <div class="row">
+                <h2 class="secondaryTitle">City Search</h2>
+            </div>
+
+            <div class="row">
+                <input type="text" class="searchInput" placeholder="Milwaukee">
+                <button type="submit" class="searchBtn">Search</button>
+            </div>
+
+            <div class="historyItems"></div>
+        </div>
+
+        <div class="col-two-container">
+            <div class="forecast">
+                <div class="row">
+                    <h3 class="cityName">City Name</h3>
+                    <h3 class="currentDate"></h3>
+                    <img class="weatherIcon" />
+                </div>
+
+                <div class="row">
+                    <p class="temp">Temperature:</p>
+                </div>
+
+                <div class="row">
+                    <p class="humidity">Humidity:</p>
+                </div>
+
+                <div class="row">
+                    <p class="windSpeed">Wind Speed:</p>
+                </div>
+
+                <div class="row">
+                    <p class="uvIndex">UV Index:</p>
+                </div>
+            </div>
+
+            <div class="five-day-container">
+                <h3 class="secondaryTitle">5-Day Forecast:</h3>
+                <div class="card-row"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/script.js"></script>
+</html>
